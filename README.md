@@ -3,11 +3,11 @@ remesher
 
 A simple feature-preserving isotropic remesher based on edge flips, edge collapses and vertex repositioning.
 
-This is pre-alpha code! Use at your own risk. I cannot support it!
+This is pre-alpha code forked and adpated from https://github.com/jamesgregson/remesher
 
 ## Requirements
 
-My utilities code for string handling, some geometry functions and command line arguments, download from: https://github.com/jamesgregson/utilities
+Working version of CMake is used to build this code
 
 ## Building
 
@@ -15,7 +15,7 @@ Generate makefiles using CMake from the build/ subdirectory then build with make
 
 ```
 <path>/remesher$ cd build
-<path>/remesher/build$ cmake .. -G Xcode
+<path>/remesher/build$ cmake .. 
 <path>/remesher/build$ make
 ```
 ## Meshing
